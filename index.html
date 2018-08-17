@@ -55,14 +55,28 @@
     </header>
 
     <main id="home">
-        <div class="container-fluid p-3 mb-2 bg-dark text-center text-white border border-secondary">
 
-            <h1 class="lg-heading">
-                GRIZZLY STARE
-            </h1>
-
-        </div>
         content
+
+        <div class="video-background">
+            <div class="video-foreground">
+                <iframe src="https://youtu.be/g9wL0f6BJJc?t=31s" frameboarder="0" allowfullscreen></iframe>
+
+            </div>
+        </div>
+        <!-- The video -->
+        <video autoplay muted loop id="myVideo">
+            <source src="https://youtu.be/g9wL0f6BJJc?t=31s" type="video/mp4">
+        </video>
+
+        <!-- Optional: some overlay text to describe the video -->
+        <div class="content">
+            <h1>Heading</h1>
+            <p>Lorem ipsum...</p>
+            <!-- Use a button to pause/play the video with JavaScript -->
+            <button id="myBtn" onclick="myFunction()">Pause</button>
+        </div>
+
         <div class="container-fluid p-3 mb-2 bg-secondary text-center text-white border border-secondary">
 
             <h2 class="sm-heading">
